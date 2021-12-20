@@ -4,7 +4,7 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 sudo chmod +x nvim.appimage
 sudo mkdir -p /usr/local/nvim 
 sudo mv nvim.appimage /usr/local/nvim/nvim.appimage
-sudo ln -s /usr/bin/nvim/nvim.appimage /usr/local/bin/nvim 
+sudo ln -s /usr/local/nvim/nvim.appimage /usr/local/bin/nvim 
 ```
 
 # LSP Dependencies
