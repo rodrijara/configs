@@ -1,3 +1,4 @@
+" Vim-plug packages installation
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -6,6 +7,7 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'tomasiser/vim-code-dark'
+Plug 'vim-airline/vim-airline'
 
 " For vsnip users.
 Plug 'hrsh7th/cmp-vsnip'
@@ -31,6 +33,8 @@ set number relativenumber
 set cursorline
 
 colorscheme codedark
+let g:airline_theme = 'codedark'
+
 lua <<EOF
   -- Setup nvim-cmp.
   local cmp = require'cmp'
