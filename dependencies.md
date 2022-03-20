@@ -16,12 +16,13 @@ curl -fLo .config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercon
 ```
 # PL & tools list
 ### Java
-- Java SE 17 [Download](https://www.oracle.com/java/technologies/downloads/) and [install](https://docs.oracle.com/en/java/javase/17/install/installation-jdk-linux-platforms.html#GUID-4907E1A6-7B4B-4E98-9DA5-BF2A4D01AA57)
-- Apache Maven [Download](https://maven.apache.org/download.cgi) and [install](https://maven.apache.org/install.html)
-- Installation
+- Java SE 17 [download](https://www.oracle.com/java/technologies/downloads/) and [install](https://docs.oracle.com/en/java/javase/17/install/installation-jdk-linux-platforms.html#GUID-4907E1A6-7B4B-4E98-9DA5-BF2A4D01AA57)
+- Apache Maven [download](https://maven.apache.org/download.cgi) and [install](https://maven.apache.org/install.html)
+- Installation summary
 ```shell
 # extract java
 tar zxvf jdk-17.INTERIM.UPDATE.PATCH_linux-x64_bin.tar.gz
+
 # extract mvn
 tar xzvf apache-maven-3.8.5-bin.tar.gz
 
