@@ -88,7 +88,11 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
+<<<<<<< HEAD
 alias ll='ls -alF'
+=======
+alias ll='ls -lF'
+>>>>>>> 18ae1f3 (rename bashrc)
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -116,9 +120,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# PROMPT definition
 PS1='\[\e[0;1;38;5;75m\]\u \[\e[0;38;5;245m\]@\[\e[0;38;5;245m\]\h \[\e[0;38;5;36m\]\w\[\e[0m\] $ '
 export PS1
 
-# golang 
-export PATH=$PATH:/usr/local/go/bin
+# Java and Maven environmental vars
+export JAVA_HOME=/opt/jdk-17.0.2
 
+MAVEN_BIN=/opt/apache-maven-3.8.5/bin
+export PATH=$PATH:$MAVEN_BIN
+
+# Go environmental vars
+GO_BIN=/opt/go/bin
+export PATH=$PATH:$GO_BIN
